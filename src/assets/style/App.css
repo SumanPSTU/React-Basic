@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-red{
+  background: rgb(0, 255, 21);
+  color: blue;
+}
+.btn{
+  padding: 4px 20px;
+  border-radius: 10px;
+  background-color: #5da1b0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+  transition: all 0.3s linear;
+  border: 2px solid transparent;
+}
+.btn:hover{
+  background: rgb(222, 146, 222);
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+}

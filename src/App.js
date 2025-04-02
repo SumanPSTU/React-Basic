@@ -1,12 +1,14 @@
-import "./App.css";
+import "./assets/style/App.css";
+import IFelse from "./component/IFelse";
 import Navbar  from "./component/Navbar";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Navbar />
+      {Navbar()}
+      {IFelse()}
     </div>
   );
 }
 
-export default App;
+
