@@ -1,3 +1,5 @@
+import Navbar from "./Navbar";
+import Test  from "./Test";
 const IFelse = () => {
   const marks = 700;
   const city = ["Dhaka", "London", "NYC", "Dhilli"];
@@ -23,11 +25,15 @@ const IFelse = () => {
       </div>
 
       <div style={{ weight: "100px" }}>
-        <ul>
+        <ul >
           {city.map((item, index) => {
-            return <li key={index.toString()}>{item}</li>;
+            return <li style={{weight:'100px'}} key={index.toString()}>{item}</li>;
           })}
         </ul>
+      </div>
+      {Navbar()}
+      <div>
+        <Test title={"this is title"}/>
       </div>
     </div>
   );
