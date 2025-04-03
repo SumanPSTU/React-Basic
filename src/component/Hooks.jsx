@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Dummy from "./Dummy";
 
 const Hooks =()=>{
     const ref = useRef();
@@ -35,6 +36,10 @@ const Hooks =()=>{
             <div ref={att}></div>
             <input type="text" ref={fname} />
             <input type="text" ref={lname} />
+
+            <div>
+                <Dummy/>
+            </div>
         </div>
 
 
