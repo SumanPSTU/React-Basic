@@ -1,6 +1,8 @@
 import PassingComponent from "./PassingComponent";
 
 const Test = (props)=>{
+
+  // event method for onClick listener
   const handle =()=>{
     alert("Welcome here !");
   }

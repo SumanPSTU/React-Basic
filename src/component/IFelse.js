@@ -15,6 +15,9 @@ const IFelse = () => {
     age:25,
     id:2202014
   };
+  const handle = ()=>{
+    alert("Hello sumon!!");
+  }
 
   return (
     <div>
@@ -41,6 +44,11 @@ const IFelse = () => {
       <div>
         <Test title={"this is title"}/>
         <Props title={obg}/>
+      </div>
+
+
+      <div style={{background:'blue'}}>
+        <button onClick={handle}>Click here</button>
       </div>
     </div>
   );
