@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Props from "./Props";
 import Test  from "./Test";
 const IFelse = () => {
   const marks = 700;
@@ -9,6 +10,11 @@ const IFelse = () => {
   } else {
     cop = <h1 style={{ color: "green" }}> very Good!!</h1>;
   }
+  const obg={
+    name:"Rahul",
+    age:25,
+    id:2202014
+  };
 
   return (
     <div>
@@ -34,6 +40,7 @@ const IFelse = () => {
       {Navbar()}
       <div>
         <Test title={"this is title"}/>
+        <Props title={obg}/>
       </div>
     </div>
   );
