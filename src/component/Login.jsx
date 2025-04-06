@@ -18,14 +18,8 @@ const Login = () => {
       [property]: value,
     }));
   };
-  const submit=()=>{
-    setObj({
-      fname: "",
-      lname: "",
-      city: "",
-      gender: "",
-    })
-  }
+  
+  
 
   return (
     <div style={{ height: "300px", marginTop: "20px" }}>
@@ -70,7 +64,7 @@ const Login = () => {
           id=""
         />
         Female <br />
-        <button type="submit" onClick={submit}>Submit</button>
+        <button type="submit" >Submit</button>
       </form>
     </div>
   );
