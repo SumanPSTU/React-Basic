@@ -11,7 +11,6 @@ const UseEffect = () => {
                console.error("Error fetching users:", error);
            }
        };
-
        fetchUsers();
    }, []);
 
